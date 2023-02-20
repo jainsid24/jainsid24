@@ -11,22 +11,23 @@
   <h2>A little more about me</h2>
 </div>
 
-  ```python
-    class Me:
+```python
+class Me:
     def __init__(self):
-        self.name = "Sid"
-        self.pronouns = ["He/His/Him"]
-        self.code = ["Python", "Java", "Rust", "Go", "Groovy"]
-        self.tools = ["TensorFlow", "PyTorch", "Keras", "Docker", "Kubernetes"]
-        self.areas_of_expertise = ["Conversational AI", "Generative AI", "Machine Learning at Scale"]
-        self.challenge = "Learning 'Deep' in Deep learning"
+      self.name = "Sid"
+      self.pronouns = ["He/His/Him"]
+      self.code = ["Python", "Java", "Rust", "Go", "Groovy"]
+      self.tools = ["TensorFlow", "PyTorch", "Keras", "Docker", "Kubernetes"]
+      self.areas_of_expertise = ["Conversational AI", "Generative AI", "Machine Learning at Scale"]
+      self.challenge = "Learning 'Deep' in Deep learning"
 
     def say_hello(self):
-        print(f"Hello there! My name is {self.name} and I use {', '.join(self.code)} to create intelligent systems.")
+      print(f"Hello there! My name is {self.name} and I use {', '.join(self.code)} to create intelligent systems.")
 
-    me = Me()
-    me.say_hello()
-  ```
+me = Me()
+me.say_hello()
+```
+
 <div align="center">
 <img src="https://media.giphy.com/media/lnO1rI2zmOktzeaTVd/giphy.gif" width="100">
   <p align="center">
