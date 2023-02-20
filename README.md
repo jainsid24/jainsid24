@@ -1,5 +1,4 @@
 <h1 align="center"> Hi, I'm Sid! <img src="https://media.giphy.com/media/Wj116ZszUZEwRIoz0j/giphy.gif" width="50"></h1>
-<p align="center"><em>Software Engineer at Intuit</em></p>
 <p align="center">
   <a href="https://www.linkedin.com/in/jainsid24">
     <img src="https://img.shields.io/badge/-jainsid24-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jainsd24/" alt="LinkedIn Connect">
