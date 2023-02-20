@@ -19,7 +19,7 @@
         self.code = ["Python", "Java", "Rust", "Go", "Groovy"]
         self.tools = ["TensorFlow", "PyTorch", "Keras", "Docker", "Kubernetes"]
         self.areas_of_expertise = ["Conversational AI", "Generative AI", "Machine Learning at Scale"]
-        self.challenge = "Learning 'deep' in Deep learning"
+        self.challenge = "Learning 'Deep' in Deep learning"
 
     def say_hello(self):
         print(f"Hello there! My name is {self.name} and I use {', '.join(self.code)} to create intelligent systems.")
