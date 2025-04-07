@@ -14,15 +14,22 @@
 ```python
 class Me:
     def __init__(self):
-      self.name = "Sid"
-      self.pronouns = ["He/His/Him"]
-      self.code = ["Python", "Java", "Rust", "Go", "Groovy"]
-      self.tools = ["TensorFlow", "PyTorch", "Keras", "Docker", "Kubernetes"]
-      self.areas_of_expertise = ["Conversational AI", "Generative AI", "Machine Learning at Scale"]
-      self.challenge = "Learning 'Deep' in Deep learning"
+        self.name = "Sid"
+        self.pronouns = ["He", "Him", "His"]
+        self.languages = ["Python", "Java", "Rust", "Go", "Groovy"]
+        self.tools = ["TensorFlow", "PyTorch", "Keras", "Docker", "Kubernetes"]
+        self.expertise = [
+            "Conversational AI",
+            "Generative AI",
+            "Machine Learning at Scale"
+        ]
+        self.current_challenge = "Learning the 'deep' in Deep Learning"
 
     def say_hello(self):
-      print(f"Hello there! My name is {self.name} and I use {', '.join(self.code)} to create intelligent systems.")
+        print(
+            f"Hello there! I'm {self.name}. "
+            f"I use {', '.join(self.languages)} to build intelligent systems."
+        )
 
 me = Me()
 me.say_hello()
