@@ -19,16 +19,22 @@ class Me:
         self.languages = ["Python", "Java", "Rust", "Go", "Groovy"]
         self.tools = ["TensorFlow", "PyTorch", "Keras", "Docker", "Kubernetes"]
         self.expertise = [
-            "Conversational AI",
-            "Generative AI",
+            "State-of-the-art LLMs",
+            "Knowledge Graphs",
+            "Fine-Tuning",
+            "Mixture of Experts",
+            "AI-Native Experiences",
+            "Autonomous Agents",
             "Machine Learning at Scale"
         ]
         self.current_challenge = "Learning the 'deep' in Deep Learning"
 
     def say_hello(self):
         print(
-            f"Hello there! I'm {self.name}. "
-            f"I use {', '.join(self.languages)} to build intelligent systems."
+            f"Hey! I'm {self.name} — a builder of intelligent systems.\n"
+            f"My toolkit includes {', '.join(self.languages)} and platforms like {', '.join(self.tools)}.\n"
+            f"I specialize in {', '.join(self.expertise)}.\n"
+            f"Current quest: {self.current_challenge}."
         )
 
 me = Me()
